@@ -1,0 +1,52 @@
+#                                                                     
+#  __  __   ________   ___ __ __    _______   ______                  
+# /_/\/_/\ /_______/\ /__//_//_/\ /_______/\ /_____/\                 
+# \ \ \ \ \\::: _  \ \\::\| \| \ \\::: _  \ \\:::_ \ \                
+#  \:\_\ \ \\::(_)  \ \\:.      \ \\::(_)  \/_\:\ \ \ \               
+#   \::::_\/ \:: __  \ \\:.\-/\  \ \\::  _  \ \\:\ \ \ \              
+#     \::\ \  \:.\ \  \ \\. \  \  \ \\::(_)  \ \\:\_\ \ \             
+#      \__\/   \__\/\__\/ \__\/ \__\/ \_______\/ \_____\/             
+#                                                                     
+#                                                                     
+# Version 5.2.2 Revision 22796 Hash (prev commit) 2a26d0742           
+#                     Branch is (HEAD                                 
+#                MPI+SLK+HDF5_MPI_IO Build                            
+#                http://www.yambo-code.eu                             
+#
+# Vxc  =Perdew, Burke & Ernzerhof(X)+Perdew, Burke & Ernzerhof(C)
+# Vnlxc=Hartree-Fock
+#
+#    K-point            Band               Eo [eV]            Ehf [eV]           Vxc [eV]           Vnlxc [eV]
+#
+        1                   8                 0.000000          -0.326174E+9       -13.12106          -0.326174E+9
+        1                   9                 3.072775           5.530294          -3.720133          -1.262614
+# 
+# 07/11/2024 at 11:46 yambo @ c38-1 [start]
+# 07/11/2024 at 11:48               [end]
+#  
+# Timing   [Min/Max/Average]: 02m-23s/02m-23s/02m-23s
+#
+# .-Input file  hf.in
+# | infver                           # [R] Input file variables verbosity
+# | HF_and_locXC                     # [R] Hartree-Fock
+# | rim_cut                          # [R] Coulomb potential
+# | BoseTemp= 0.000000         eV    # Bosonic Temperature
+# | SE_CPU= "1 2 8"                  # [PARALLEL] CPUs for each role
+# | SE_ROLEs= "q,qp,b"               # [PARALLEL] CPUs roles (q,qp,b)
+# | RandQpts= 3000000                # [RIM] Number of random q-points in the BZ
+# | RandGvec=  5               Ry    # [RIM] Coulomb interaction RS components
+# | CUTGeo= "box xyz"                # [CUT] Coulomb Cutoff geometry: box/cylinder/sphere/ws/slab X/Y/Z/XY..
+# | % CUTBox
+# |  20.50000 | 20.50000 | 20.50000 |        # [CUT] [au] Box sides
+# | %
+# | CUTRadius= 0.000000              # [CUT] [au] Sphere/Cylinder radius
+# | CUTCylLen= 0.000000              # [CUT] [au] Cylinder length
+# | CUTwsGvec= 0.000000              # [CUT] WS cutoff: number of G to be modified
+# | EXXRLvcs= 1109997          RL    # [XX] Exchange    RL components
+# | VXCRLvcs= 1109997          RL    # [XC] XCpotential RL components
+# | %QPkrange                        # [GW] QP generalized Kpoint/Band indices
+# | 1|1|8|9|
+# | %
+# | %QPerange                        # [GW] QP generalized Kpoint/Energy indices
+# | 1|1| 0.000000|-1.000000|
+# | %

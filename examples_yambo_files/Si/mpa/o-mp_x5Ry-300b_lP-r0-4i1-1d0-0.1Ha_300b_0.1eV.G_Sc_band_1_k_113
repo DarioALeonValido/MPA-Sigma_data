@@ -1,0 +1,158 @@
+#                                                                     
+# :   :::   :::     ::::    ::::  :::::::::   ::::::::                
+# :+:   :+: :+: :+:   +:+:+: :+:+:+ :+:    :+: :+:    :+              
+#  +:+ +:+ +:+   +:+  +:+ +:+:+ +:+ +:+    +:+ +:+    +:+             
+#   +#++: +#++:++#++: +#+  +:+  +#+ +#++:++#+  +#+    +:+             
+#    +#+  +#+     +#+ +#+       +#+ +#+    +#+ +#+    +#+             
+#    #+#  #+#     #+# #+#       #+# #+#    #+# #+#    #+#             
+#    ###  ###     ### ###       ### #########   ########              
+#                                                                     
+#                                                                     
+# Version 5.2.2 Revision 22796 Hash (prev commit) 2a26d0742           
+#                     Branch is (HEAD                                 
+#                MPI+SLK+HDF5_MPI_IO Build                            
+#                http://www.yambo-code.eu                             
+#
+# GW [Green`s function & Self-Energy]
+#
+# GW solver                                       : Full Green`s function
+# GW approximation                                : MPA
+# MPA number of poles                             :   0.00000000   
+# RIM G`s                                         :  1
+# RIM random pts                                  :  3000000
+# X G`s                                           :   65 [used]
+# X G`s                                           :   65 [disk]
+# X bands                                         :    1  300
+# X poles                                         :   100.000000    [o/o]
+# X e/h E range                                   :  -1.00000000     -1.00000000    [ev]
+# X Hxc Kernel                                    : HARTREE
+# X damping range                                 :   0.00000000      2.72113848    [ev]
+# X Steps                                         :  16
+# X BZ energy Double Grid                         : no
+# X Optical Averaged directions                   : none
+# Sc/G bands                                      :    1  300
+# Sc/G damping                                    :  0.100000001    [ev]
+# Sc bands terminator                             : no
+# Sx RL components                                :   5961
+# [GF] GF is causal                               : no
+# [GF] Real-axis steps                            :   33
+# [GF] Initial E range                            :  -50.0000000      50.0000000    [ev]
+# [GF] Zoom treshold                              :   0.00000000    [o/o]
+# [GF] Damping                                    :  0.100000001     0.100000001    [ev]
+#                                                 
+# QP @ state[ 1 ] K range                         :    1  145
+# QP @ state[ 1 ] b range                         :  1  1
+#
+#
+# Spectral function at this point integrates to:  0.145861715   
+#
+#
+#    Energy [eV]        Re(G) [eVm1]       Im(G) [eVm1]       Re(S_tot) [eV]     Im(S_c) [eV]       Re(S_c) [eV]
+#
+       -58.71169          -0.022722           0.116820E-4       -5.990201           0.022626          -0.329601
+       -55.58669          -0.024479           0.165298E-4       -6.023190           0.027586          -0.362589
+       -52.46169          -0.026534           0.254208E-4       -6.062819           0.036106          -0.402218
+       -49.33670          -0.028972           0.404310E-4       -6.108422           0.048169          -0.447822
+       -46.21170          -0.031914           0.578234E-4       -6.166098           0.056772          -0.505497
+       -43.08669          -0.035561           0.881196E-4       -6.254240           0.069683          -0.593639
+       -39.96170          -0.040213           0.158730E-3       -6.382665           0.098158          -0.722065
+       -36.83670          -0.046423           0.366123E-3       -6.585422           0.169875          -0.924822
+       -33.71170          -0.055355           0.001128          -6.942271           0.368030          -1.281671
+       -30.58669          -0.068473           0.004605          -7.336428           0.977726          -1.675828
+       -27.46169          -0.083701           0.020006          -7.448424           2.701295          -1.787823
+       -24.33670          -0.079766           0.022144          -3.985368           3.231277           1.675233
+       -21.21169          -0.114462           0.012341          -3.863882           0.931121           1.796718
+       -18.08669          -0.201626           0.013302          -4.436808           0.325783           1.223793
+       -14.96170          -0.678674           0.056343          -4.786626           0.121489           0.873974
+       -11.83670           0.530534           0.015833          -5.008218           0.056203           0.652382
+       -8.711696           0.194364           0.955569E-3       -5.144866           0.025294           0.515735
+       -5.586694           0.119409           0.878083E-4       -5.249559           0.006158           0.411041
+       -2.461693           0.086366           0.851047E-5       -5.328640           0.001141           0.331961
+        0.663302           0.067730           0.655625E-6       -5.389582           0.142922E-3        0.271019
+        3.788304           0.055739          -0.165338E-5       -5.440911          -0.532184E-3        0.219690
+        6.913305           0.047361          -0.817233E-5       -5.489224          -0.003643           0.171376
+        10.03830           0.041178          -0.277870E-4       -5.534887          -0.016388           0.125714
+        13.16330           0.036434          -0.458087E-4       -5.571993          -0.034509           0.088607
+        16.28830           0.032672          -0.632254E-4       -5.607584          -0.059231           0.053016
+        19.41331           0.029620          -0.863835E-4       -5.636138          -0.098462           0.024462
+        22.53831           0.027100          -0.111893E-3       -5.649549          -0.152354           0.011052
+        25.66330           0.024998          -0.132226E-3       -5.627043          -0.211588           0.033558
+        28.78830           0.023221          -0.126324E-3       -5.563259          -0.234267           0.097341
+        31.91331           0.021668          -0.101980E-3       -5.525424          -0.217208           0.135176
+        35.03830           0.020305          -0.825016E-4       -5.498917          -0.200107           0.161683
+        38.16330           0.019098          -0.645502E-4       -5.487090          -0.176985           0.173510
+        41.28830           0.018024          -0.504430E-4       -5.480928          -0.155272           0.179672
+# 
+# 08/13/2024 at 10:26 yambo @ c5-2 [start]
+# 08/13/2024 at 15:34              [end]
+#  
+# Timing   [Min/Max/Average]: 05h-05m/05h-06m/05h-06m
+#
+# .-Input file  mp.in
+# | HF_and_locXC                     # [R] Hartree-Fock
+# | gw0                              # [R] GW approximation
+# | dyson                            # [R] Dyson Equation solver
+# | rim_cut                          # [R] Coulomb potential
+# | em1d                             # [R][X] Dynamically Screened Interaction
+# | mpa                              # [R][Xm] Multi Pole Approximation for the Screened Interaction
+# | el_el_corr                       # [R] Electron-Electron Correlation
+# | FFTGvecs= 1139             RL    # [FFT] Plane-waves
+# | X_and_IO_CPU= "1 1 1 128 2"      # [PARALLEL] CPUs for each role
+# | X_and_IO_ROLEs= "q,g,k,c,v"      # [PARALLEL] CPUs roles (q,g,k,c,v)
+# | DIP_CPU= "1 128 2"               # [PARALLEL] CPUs for each role
+# | DIP_ROLEs= "k,c,v"               # [PARALLEL] CPUs roles (k,c,v)
+# | SE_CPU= "1 64 4"                 # [PARALLEL] CPUs for each role
+# | SE_ROLEs= "q,qp,b"               # [PARALLEL] CPUs roles (q,qp,b)
+# | RandQpts= 3000000                # [RIM] Number of random q-points in the BZ
+# | RandGvec= 1                RL    # [RIM] Coulomb interaction RS components
+# | CUTGeo= "none"                   # [CUT] Coulomb Cutoff geometry: box/cylinder/sphere/ws/slab X/Y/Z/XY..
+# | % CUTBox
+# |  0.000000 | 0.000000 | 0.000000 |        # [CUT] [au] Box sides
+# | %
+# | CUTRadius= 0.000000              # [CUT] [au] Sphere/Cylinder radius
+# | CUTCylLen= 0.000000              # [CUT] [au] Cylinder length
+# | CUTwsGvec= 0.000000              # [CUT] WS cutoff: number of G to be modified
+# | EXXRLvcs=  5961            RL    # [XX] Exchange    RL components
+# | VXCRLvcs=  5961            RL    # [XC] XCpotential RL components
+# | Chimod= "HARTREE"                # [X] IP/Hartree/ALDA/LRC/PF/BSfxc
+# | % QpntsRXm
+# |    1 | 145 |                         # [Xm] Transferred momenta
+# | %
+# | % BndsRnXm
+# |    1 | 300 |                         # [Xm] Polarization function bands
+# | %
+# | NGsBlkXm=  6               Ry    # [Xm] Response block size
+# | % LongDrXm
+# |  0.577350E-5 | 0.577350E-5 | 0.577350E-5 # [Xm] [cc] Electric Field
+# | %
+# | EnSampXm= "2l"                   # [Xm] Frequency sampling in the complex plane ("1l" one line, "2l" two lines)
+# | % EnRngeXm
+# |  0.000000 | 4.000000 |         Ha    # [Xm] Energy range
+# | %
+# | % ImRngeXm
+# |  1.000000 | 1.000000 |         Ha    # [Xm] Imaginary range
+# | %
+# | % DmRngeXm
+# |  0.000000 | 0.100000 |         Ha    # [Xm] Damping range
+# | %
+# | ETStpsXm= 16                     # [Xm] Total Energy steps
+# | IntSolXm= "PT"                   # [Xm] MPA interpolation solver ("LA" linear algebra, "PT" Pade-Thiele)
+# | #mpERdb                        # [Xm] Write to disk MPA poles and residues
+# | % GbndRnge
+# |    1 | 300 |                         # [GW] G[W] bands range
+# | %
+# | GTermKind= "none"                # [GW] GW terminator ("none","BG" Bruneval-Gonze,"BRS" Berger-Reining-Sottile)
+# | DysSolver= "g"                   # [GW] Dyson Equation solver ("n","s","g","q")
+# | GEnSteps=  33                    # [GW] Green`s Function (GF) energy steps
+# | % GEnRnge
+# | -50.00000 | 50.00000 |         eV    # [GW] GF energy range
+# | %
+# | % GDmRnge
+# |  0.100000 | 0.100000 |         eV    # [GW] G_gw damping range
+# | %
+# | %QPkrange                        # [GW] QP generalized Kpoint/Band indices
+# | 1|145|1|1|
+# | %
+# | %QPerange                        # [GW] QP generalized Kpoint/Energy indices
+# | 1|145| 0.000000|-1.000000|
+# | %

@@ -1,0 +1,144 @@
+#                                                                     
+# ooooo   oooo ..     ooo        ooo ooooooooo.    .oooo.             
+#  `88.   .8" .88.    `88.       .88 `88"   `Y8b  dP"  `Yb            
+#   `88. .8" .8"88.    888b     d"88  88     888 88      88           
+#    `88.8" .8" `88.   8 Y88. .P  88  88oooo888" 88      88           
+#     `88" .88ooo888.  8  `888"   88  88    `88b 88      88           
+#      88 .8"     `88. 8    Y     88  88    .88P `8b    d8"           
+#     o88o88o      888o8          88 o88bood8P"   `Ybod8P"            
+#                                                                     
+#                                                                     
+# Version 5.2.2 Revision 22796 Hash (prev commit) 2a26d0742           
+#                      Branch is (HEAD                                
+#                 MPI+SLK+HDF5_MPI_IO Build                           
+#                 http://www.yambo-code.eu                            
+#
+#
+# GW approximation                                : Real Axis
+# RIM G`s                                         :  1
+# RIM random pts                                  :  3000000
+# X G`s                                           :   65 [used]
+# X G`s                                           :   65 [disk]
+# X bands                                         :    1  300
+# X poles                                         :   100.000000    [o/o]
+# X e/h E range                                   :  -1.00000000     -1.00000000    [ev]
+# X Hxc Kernel                                    : HARTREE
+# X damping range                                 :  0.100000001     0.100000001    [ev]
+# X BZ energy Double Grid                         : no
+# X Optical Averaged directions                   : none
+# Transitions                                     :   100.000000    [o/o]
+#                                                 
+# QP @ state[ 1 ] K range                         :   1  10
+# QP @ state[ 1 ] b range                         :   2   7
+#
+#
+#    K-point            Band               Eo [eV]            Width [meV]        Width [fs]
+#
+        1                  2                  0.000000           0.000000           0.000000
+        1                  3                  0.000000           0.000000           0.000000
+        1                   4                 0.000000           0.000000           0.000000
+        1                   5                 2.559948          -5.205834           126.4373
+        1                   6                 2.559948          -5.205907           126.4356
+        1                   7                 2.559948          -5.205945           126.4346
+        2                  2                 -0.532901           2.541227           259.0135
+        2                  3                 -0.085048           0.418540            1572.64
+        2                   4                -0.085048           0.418540            1572.64
+        2                   5                 2.619998          -5.656559           116.3626
+        2                   6                 2.683973          -5.888133           111.7862
+        2                   7                 2.683973          -5.888102           111.7868
+        3                  2                 -1.603559           6.324408           104.0749
+        3                  3                 -0.289257           0.916674           718.0433
+        3                   4                -0.289257           0.916674           718.0435
+        3                   5                 2.489174          -5.144478           127.9453
+        3                   6                 2.984150          -7.977624           82.50726
+        3                   7                 2.984150          -7.977695           82.50652
+         4                 2                 -2.779836           15.61162           42.16168
+         4                 3                 -0.531760           1.632444           403.2064
+         4                  4                -0.531760           1.632444           403.2065
+         4                  5                 2.253614          -3.455798           190.4659
+         4                  6                 3.306538          -10.63013           61.91946
+         4                  7                 3.306538          -10.63022           61.91894
+         5                 2                 -3.933498           43.84497           15.01225
+         5                 3                 -0.759310           1.891144           348.0495
+         5                  4                -0.759310           1.891145           348.0494
+         5                  5                 2.011187          -2.377548           276.8448
+         5                  6                 3.501114          -12.58462           52.30290
+         5                  7                 3.501114          -12.58467           52.30265
+         6                 2                 -5.008915           105.5820           6.234128
+         6                 3                 -0.947667           2.221076           296.3483
+         6                  4                -0.947667           2.221076           296.3481
+         6                  5                 1.802228          -1.481128           444.3990
+         6                  6                 3.521115          -13.10015           50.24461
+         6                  7                 3.521115          -13.10013           50.24470
+         7                 2                 -5.954906           195.0377           3.374793
+         7                 3                 -1.085780           2.852747           230.7292
+         7                  4                -1.085780           2.852747           230.7291
+         7                  5                 1.645151          -1.259571           522.5683
+         7                  6                 3.443307          -11.82477           55.66383
+         7                  7                 3.443307          -11.82466           55.66434
+         8                 2                 -6.679261           277.7447           2.369845
+         8                 3                 -1.169420           2.450967           268.5519
+         8                  4                -1.169420           2.450963           268.5523
+         8                  5                 1.549538          -1.113469           591.1364
+         8                  6                 3.363362          -11.28498           58.32635
+         8                  7                 3.363362          -11.28494           58.32655
+         9                 2                 -6.977859           316.8211           2.077551
+         9                 3                 -1.197209           2.569074           256.2058
+         9                  4                -1.197209           2.569077           256.2056
+         9                  5                 1.517041          -0.902903           728.9954
+         9                  6                 3.331235          -10.46393           62.90295
+         9                  7                 3.331235          -10.46394           62.90286
+        10                 2                 -0.422996           1.756479           374.7337
+        10                 3                 -0.263300           0.892818           737.2294
+        10                  4                -0.263300           0.892818           737.2293
+        10                  5                 2.397666          -4.803382           137.0309
+        10                  6                 2.906617          -7.474518           88.06077
+        10                  7                 2.906617          -7.474478           88.06125
+# 
+# 08/08/2024 at 18:24 yambo @ c9-6 [start]
+# 08/08/2024 at 20:15              [end]
+#  
+# Timing   [Min/Max/Average]: 01h-50m/01h-50m/01h-50m
+#
+# .-Input file  lt.in
+# | life                             # [R] GoWo Quasiparticle lifetimes
+# | rim_cut                          # [R] Coulomb potential
+# | dipoles                          # [R] Oscillator strenghts (or dipoles)
+# | em1d                             # [R][X] Dynamically Screened Interaction
+# | el_el_corr                       # [R] Electron-Electron Correlation
+# | DBsIOoff= "DIP X"                # [IO] Space-separated list of DB with NO I/O. DB=(DIP,X,HF,COLLs,J,GF,CARRIERs,OBS,W,SC,BS,ALL)
+# | FFTGvecs= 1139             RL    # [FFT] Plane-waves
+# | DIP_CPU= "1 32 2"                # [PARALLEL] CPUs for each role
+# | DIP_ROLEs= "k,c,v"               # [PARALLEL] CPUs roles (k,c,v)
+# | X_and_IO_CPU= "1 1 1 32 2"       # [PARALLEL] CPUs for each role
+# | X_and_IO_ROLEs= "q,g,k,c,v"      # [PARALLEL] CPUs roles (q,g,k,c,v)
+# | X_and_IO_nCPU_LinAlg_INV=  36    # [PARALLEL] CPUs for Linear Algebra (if -1 it is automatically set)
+# | SE_CPU= "1 16 4"                 # [PARALLEL] CPUs for each role
+# | SE_ROLEs= "q,qp,b"               # [PARALLEL] CPUs roles (q,qp,b)
+# | RandQpts= 3000000                # [RIM] Number of random q-points in the BZ
+# | RandGvec= 1                RL    # [RIM] Coulomb interaction RS components
+# | CUTGeo= "none"                   # [CUT] Coulomb Cutoff geometry: box/cylinder/sphere/ws/slab X/Y/Z/XY..
+# | % CUTBox
+# |  0.000000 | 0.000000 | 0.000000 |        # [CUT] [au] Box sides
+# | %
+# | CUTRadius= 0.000000              # [CUT] [au] Sphere/Cylinder radius
+# | CUTCylLen= 0.000000              # [CUT] [au] Cylinder length
+# | CUTwsGvec= 0.000000              # [CUT] WS cutoff: number of G to be modified
+# | Chimod= "HARTREE"                # [X] IP/Hartree/ALDA/LRC/PF/BSfxc
+# | LifeTrCG= 100.0000               # [GW] [o/o] Lifetime transition reduction
+# | % BndsRnXd
+# |    1 | 300 |                         # [Xd] Polarization function bands
+# | %
+# | NGsBlkXd=  6               Ry    # [Xd] Response block size
+# | % DmRngeXd
+# |  0.100000 | 0.100000 |         eV    # [Xd] Damping range
+# | %
+# | % LongDrXd
+# |  0.577350E-5 | 0.577350E-5 | 0.577350E-5 # [Xd] [cc] Electric Field
+# | %
+# | %QPkrange                        # [GW] QP generalized Kpoint/Band indices
+# | 1|10|2|7|
+# | %
+# | %QPerange                        # [GW] QP generalized Kpoint/Energy indices
+# | 1|145| 0.000000|-1.000000|
+# | %
