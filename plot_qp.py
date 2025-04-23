@@ -44,12 +44,12 @@ labelsVC = ['val (FF)', 'con (FF)']
 labelMPA = 'MPA-$\Sigma$'
 labelMPAg = 'MPA-$G$'
 
-labelsSi = ['Fermi', '$+0.7~$eV']
+labelsSi = ['VBM', '$+0.7~$eV']
 labelsNa = ['$-3.3~$eV', '$+0.8~$eV']
 labelsCu = ['$-9.3~$eV', '$+7.1~$eV']
-labelsMoS2 = ['Fermi', '$+1.7~$eV']
-labelsNaCl = ['Fermi', '$+3.1~$eV']
-labelsF2 = ['Fermi', '$+3.5~$eV']
+labelsMoS2 = ['VBM', '$+1.7~$eV']
+labelsNaCl = ['VBM', '$+3.1~$eV']
+labelsF2 = ['VBM', '$+3.5~$eV']
 
 panels = ['(a)','(b)','(c)','(d)','(e)','(f)','(g)','(h)','(i)']
 panels = np.reshape(panels,(3,3))
